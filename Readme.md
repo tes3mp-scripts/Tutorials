@@ -10,6 +10,10 @@ To install any of my scripts:
         2. Open a powershell window in that folder (`shift + right click` on empty space)
         3. Copy the https git command from the script's repository (green button which says `Code`)
         4. Paste it into your powershell window (`right click`) and press `Enter`
+        5. If you need to update the script in the future, simply open the powershell window again and run `git pull origin master`  
+            Keep in mind that there might be breaking changes to the configuration/data files  
+            Make sure you can rollback in case you run into issues, run `git log` before `git pull` and remember the last `commit hash`, which looks something like `53758ef` or `53758efebceaaab340b8611d53ca5f9d4a8ed88c`
+            To reset to an older version, run `git reset <commit-hash> --hard`
     2. Download as a zip file
         1. Open the code download menu on the script repository page (green button which says `Code`)
         2. Click `Download ZIP`
