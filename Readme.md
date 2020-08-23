@@ -20,7 +20,7 @@ To install any of my scripts:
         3. Unpack the archive into a folder (e.g. `DataManager-master`)
         4. Rename that folder to remove the branch name (e.g. from `DataManager-master` to `DataManager`)
         5. Copy this folder into your `server/scripts/custom` folder
-3. Add the necessarily line to your `server/scripts/customScripts.lua`:  
+3. Add a to your `server/scripts/customScripts.lua`:  
     For most scripts, simply `require`-ing its `main.lua` is enough. For example:
     ```Lua
     require('custom.VisualHarvesting.main')
