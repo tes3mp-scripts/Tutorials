@@ -3,7 +3,7 @@ All of the scripts require the current version of [CoreScripts](https://github.c
 You can find a recommended way of setting up your server here [ServerSetup.md](ServerSetup.md).
 
 To install any of my scripts:
-1. Go to the script's repository ([DataManager(https://github.com/tes3mp-scripts/DataManager) as an example)
+1. Go to the script's repository ([DataManager](https://github.com/tes3mp-scripts/DataManager) as an example)
 2. Download the files. There are two ways to do so:
     1. Using git (recommended, get it here https://git-scm.com/downloads):
         1. Navigate to your `server/scripts/custom` folder
